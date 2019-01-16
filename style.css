@@ -3,15 +3,58 @@ body {
   background-repeat: repeat;
   background-position: fixed;
   background-color: rgba(255, 255, 255, 0.6);
+  margin: 7%;
+  padding: 7%;
 }
 h2 {
   font-size: 200%;
-  text-decoration: underline;
+  text-decoration: none;
+  font-style: italic;
   font-family:
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: helvetica, fantasy, sans-serif;
   max-width: 600px;
+}
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 110%;
+}
+a {
+  font-size: 18px;
+  font-family: helvetica, sans-serif;
 
+}
+.photo {
+  width: 250px;
+  float: right;
+  margin-top: -300px;
+}
+.section {
+  margin-bottom: 70px;
+  line-height: 120%;
+}
+.sec-gauche {
+  float: left;
+  font-weight: bold;
+  line-height: 280%;
+
+}
+.sec-droite {
+  margin-left: 150px;
+  margin-top: 45px;
+}
+strong {
+  font-size: 30px;
+}
+a [href^="mailto"]:hover:after {
+  color: purple;
+}
+a [href^="mailto"]:visited:after {
+  color: red;
+}
+a   [href^="mailto"]:active:after {
+  color: green;
 }
